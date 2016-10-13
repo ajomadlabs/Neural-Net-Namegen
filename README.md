@@ -19,5 +19,11 @@ A LSTM neural network used for generating new names based on learning a given hu
   <a href="https://raw.githubusercontent.com/tflearn/tflearn.github.io/master/resources/US_Cities.txt">Cities</a><br>
   Copy and paste it into a text file and save as Cities.txt
 <hr>
+# Training Output
+  <p align="center">
+  <img src="https://github.com/ajomadlabs/Neural-Net-Namegen/blob/master/neuralnet.png" width="350"/>
+  </p>
+  Takes approximately 20 minutes to train the system
+<hr>
 # Credits
   This neural network is created as hobby project inspiring <a href="https://github.com/llSourcell/">llSourcell</a>
