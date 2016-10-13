@@ -15,7 +15,7 @@ from tflearn.data_utils import *									#Import all the data utils in tflearn
 	Getting The Dataset For Generating The New Data
 --------------------------------------------------------------------------------------------------'''
 
-path = "US_Cities.txt"											#Setting the path variable to the dataset
+path = "Cities.txt"											#Setting the path variable to the dataset
 if not os.path.isfile(path):										#CHecking if the path exists
     contxt = ssl._create_unverified_context()								#Creating a variable and assigning ssl 
     moves.urllib.request.urlretrieve("https://raw.githubusercontent.com/tflearn/tflearn.github.io/master/resources/US_Cities.txt", path, context=contxt) #Pulling the dataset from the corresponding url
